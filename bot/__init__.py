@@ -53,7 +53,7 @@ TIME_GAP_STORE = {}
 GLOBAL_EXTENSION_FILTER = ['.aria2']
 
 try:
-    if bool(environ.get('_____REMOVE_THIS_LINE_____')):
+    if bool(environ.get('')):
         log_error('The README.md file there to be read! Exiting now!')
         exit()
 except:
